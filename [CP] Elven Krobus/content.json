@@ -1,0 +1,291 @@
+
+
+{
+  "Format": "1.10.0",
+  "ConfigSchema": {
+    "KrobusStyle": { 
+      "AllowValues": "Drowelf, Purpledrow, Bluedrow, Browndrow, Albino, Vampire, Redhead, Moss, Brown, Darkbrown, Darkerbrown",
+      "Default": "Drowelf"
+      },
+    },
+  "Changes": [
+//////For Character files
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus2",
+          "FromFile": "assets/Krobus2_character.png",
+        },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_chargraydrow.png",
+          "When": {
+            "KrobusStyle": "Drowelf" 
+             }  
+        },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charpurpledrow.png",
+          "When": {
+            "KrobusStyle": "Purpledrow" 
+             }  
+        },
+        {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charbluedrow.png",
+          "When": {
+            "KrobusStyle": "Bluedrow" 
+             }  
+        },
+        {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charbrowndrow.png",
+          "When": {
+            "KrobusStyle": "Browndrow" 
+             }  
+        },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charalbino.png",
+          "When": {
+            "KrobusStyle": "Albino" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charvampire.png",
+          "When": {
+            "KrobusStyle": "Vampire" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charredhead.png",
+          "When": {
+            "KrobusStyle": "Redhead" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charmoss.png",
+          "When": {
+            "KrobusStyle": "Moss" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charbrown.png",
+          "When": {
+            "KrobusStyle": "Brown" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charbrowndark.png",
+          "When": {
+            "KrobusStyle": "Darkbrown" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Characters/Krobus",
+          "FromFile": "assets/Krobus_charbrowndarker.png",
+          "When": {
+            "KrobusStyle": "Darkerbrown" 
+             }  
+      },
+//////For Portrait files
+   {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus2",
+          "FromFile": "assets/Krobus2_portrait.png",
+        },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_graydrow.png",
+          "When": {
+            "KrobusStyle": "Drowelf" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_purpledrow.png",
+          "When": {
+            "KrobusStyle": "Purpledrow" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_bluedrow.png",
+          "When": {
+            "KrobusStyle": "Bluedrow" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_browndrow.png",
+          "When": {
+            "KrobusStyle": "Browndrow" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_albino.png",
+          "When": {
+            "KrobusStyle": "Albino" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_vampire.png",
+          "When": {
+            "KrobusStyle": "Vampire" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_redhead.png",
+          "When": {
+            "KrobusStyle": "Redhead" 
+             }  
+       },
+  {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_moss.png",
+          "When": {
+            "KrobusStyle": "Moss" 
+             }  
+       },
+   {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_brown.png",
+          "When": {
+            "KrobusStyle": "Brown" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_browndark.png",
+          "When": {
+            "KrobusStyle": "Darkbrown" 
+             }  
+      },
+   {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus_browndarker.png",
+          "When": {
+            "KrobusStyle": "Darkerbrown" 
+             }  
+      },
+//////For Dialogue
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Krobus",
+  "Entries":
+  {
+        "spring_1": "Are you planting new crops today? Are there many new plants sprouting? I've never seen much green until very recently. The vines down here are lovely. I'm trying to keep some of my favorites alive down here, but they require magic to survive without sunlight.",
+        "spring_12": "Is tomorrow the anniversary of a large festival? It always smells like rotten eggs down here for a good week after.",
+        "spring_25": "I was wandering the forest last night, and found a staggering amount of cut flowers and loose petals in an open field west of here. Do you know what happened there?",
+        "summer_1": "It's beginning to get muggy down here, but at least it is cool. Even at night, above ground is so warm. #$b#I'm not sure I'd be able to endure mid-day heat.",
+        "summer_12": "Around this time last year, a terrible stench filled the sewers, as gallon after gallon of putrid liquid poured in.#$b#I believe I spotted a flash of purple silk amongst the filth. It remains a mystery to me even now.",
+        "summer_28": "I will be sneaking into the forest near the water's edge tonight, to witness the moon jellyfish migration.#$b#Will you be going, too? It must be nice to view it with your family and friends.",
+        "fall_1": "I look forward to the striking colors of the foliage all year long. Do the plants on your farm have beautiful too?",
+        "fall_15": "Goodluck at your fair tomorrow. I have spotted some of their decorations being set up. I would like to see it, one day.#$e#Maybe I'll find a good disguise potion and try it someday.",
+        "fall_27": "Spirits Eve is an important festival for my people, as well. More so than to humans, it seems, who seem to treat it with a bit more joviality.",
+        "winter_1": "The cold of winter, like the heat of summer, doesn't touch the underground with as much strength.#$e#I am looking forward to seeing the snow at night... though I fear I will be more visible in it.",
+        "winter_25": "I won't pretend not to envy your warm friends and cozy customs today.",
+        "winter_26": "Did you enjoy the festival last night? Did you bring me a gift? Leftover treats?#$e#I'm not serious, it's all right.",
+        "winter_28": "I believe your culture celebrates the beginning of it's new year tomorrow? I hope your new year brings you great fortune, and joy.#$e#I think a new year beginning with spring is very sensible. Unlike cultures that begin mid-winter, or a random date in autumn. Very sensible.",
+        "Mon": "...Have you encountered others like me? I'm sorry if they were hostile towards you.#$e#You see, we've learned to dislike humans... there have been too many... unpleasant encounters.",
+        "Tue": "Have you met my friends?#$b#The shadow people are also misunderstood, hunted, and hated by the dwarves.",
+        "Wed": "Please keep my location a secret. If the dwarves knew of me, they'd surely send an assassin.#$b#Not that I wouldn't have a chance, but I would prefer not to fight.",
+        "Thu": "Please don't tell anyone about my presence here.#$b#Humans tend to destroy things they don't understand.",
+        "Fri": "...",
+        "Sat": "Don't be alarmed. I am very different from others of my kind.#$b#I've spent a lot of time observing humans.#$e#Do you wish to see my wares?",
+        "Sun": "...My apologies, I'm still a little wary of humans. My shop is open to you, however.",
+        "Mon2": "Back again? I suppose it does fit into my theory of human behavior.",
+        "Tue2": "A 1000 year war between my people and the dwarves recently ended. There's still immeasurable resentment on both sides.",
+        "Wed2": "Greetings.#$e#I find things as I explore, and I sell them. Care to buy anything, or trade?",
+        "Thu2": "I am too sensitive to sunlight to go out on most days.#$b#The conditions in here are perfect.#$b#... The underground caverns were more so, but I don't feel comfortable there anymore...",
+        "Sat2": "On the sixth day, I stay silent as a sign of devotion to Yoba.#$b#While not the deity of my people, I recognize wisdom, goodness, and truth, when I see it.",
+        "Sun2": "As I wandered the caverns north of here, I stumbled upon some rare objects.#$b#Want to have a look?",
+        "Mon4": "You're not like the other humans, are you?",
+        "Tue4": "There is a witch to the north who has powerful spells. Have you seen her?#$e#I think what I have down here is more useful, however.",
+        "Wed4": "Good day @! How are you? #$b#Hey, look at this artifact. It's powers are incredible.#$b#No, it's not for sale, but I can sell you something else.",
+        "Thu4": "Don't tell anyone, but at night when the humans are asleep, I explore the town.#$e#I've learned the metal bins outside their dwellings contain unwanted items.#$b#I've found very valuable things, some of which you've seen amongst my wares.",
+        "Sat4": "Hello, @. How are you today?#$e#What's my favorite place to explore? The woods, out to the west, under the full moon.",
+        "Sun4": "I spotted someone in the deep woods the other night. #$q 1201/1202 Sun4_old#Was that you? It was such a quick glimpse, and I didn't want to draw attention to myself...#$r 1201 35 Sun4_24#Probably - I thought I heard something unusual!#$r 1202 15 Sun4_25#No, I rarely visit there, especially not at night when it's more dangerous.",
+        "Sun4_old": "$p 1201#If I spot you deep in the forest again, I will stop and say 'hello'.|Next time I see a shadow moving in the forest, I will have to be more discreet, instead of lingering to observe.#$b#I cannot afford to be spotted by an unknown human.",
+        "Sun4_24": "I thought so. It was a beautiful night, wasn't it? Did you find anything of worth?",
+        "Sun4_25": "It wasn't you? Perhaps I can't differentiate between humans as well as I thought...#$b#... I wonder who it was, then.",
+        "Mon6": "'Krobus' means 'bridge-crosser' in our language.",
+        "Tue6": "@, welcome!#$e#Why did I leave the underground caverns of my people? That's a long story...#$b#Perhaps one for another day.",
+        "Wed6": "The sewers are filled with wonderful creatures, that keep me and the shadow people company in the quiet dark.#$e#My favorite are the croaking frogs.",
+        "Thu6": "I narrowly avoided detection in the northern caves the other night.#$b#Thanks to the goodness of Yoba, I made it out without issue.",
+        "Sat6": "Good day, @.#$q 1203/1204 Sat6_old#I have never asked you before - how do you feel about the great being of light, Yoba?#$r 1203 10 Sat6_26#I think that divine belief is a good thing.#$r 1203 50 Sat6_27#Yoba is my hope, my light when days are dark.#$r 1204 -25 Sat6_28#I don't feel much of anything. Not exactly a believer.#$r 1204 -100 Sat6_29#I don't think I could care less, 'The Great Yoba' is a joke.",
+        "Sat6_old": "$p 1203#I'm glad to be in the presence of someone so full of positivity and belief.|Yoba's light is great, enough to fill any depth. Anyone's depths.",
+        "Sat6_26": "I couldn't agree more. A balm for the weary soul, a strengthening tonic for the adventurer.",
+        "Sat6_27": "I am very glad to hear it. Will you join me on the sixth day in special observation?",
+        "Sat6_28": "I, too, felt nothing, once. The scope of nothingness I felt was like an endless cavern with no floor. Perhaps one day you will feel something.",
+        "Sat6_29": "...#$b#I see.",
+        "Sun6\"": "I am glad for your visits here.#$b#I am sure the wares are the main draw, but it is nice to have company.#$e#Not that the shadow people aren't good company.#$b#Perhaps I should say, it's nice to occasionally have humanoid company.",
+        "Mon8": "Do I have a large black what?#$b#A cat-like animal? I don't even know what creature you're referring to.#$b#I have no pets. Unless we are counting the frogs.",
+        "Tue8": "Greetings, @. How are you today?#$e#The weapons in my room, you ask?#$b#I've not had to use them except in self-defense for some time.#$b#I do carry one with me while exploring at night - you have one as well, I believe?",
+        "Wed8": "My fortunes are good today, I think I will venture out tonight and brave the mines.#$q 1205/1206 Wed8_old#Will you be going adventuring tonight as well?#$r 1205 Wed8_30#No, I'm too tired after farming to explore at night.#$r 1206 Wed8_31#Yes, I'm always up for exploring the mines.",
+        "Wed8_old": "$p 1205#I hope your hard work is paying off. I wish you good fortune!|Perhaps we could team up later for mutually lucrative exploration.",
+        "Wed8_30": "You do work very hard. And you are a diurnal creature, after all.#$b#I hope the rest of your day is full of good fortune, and your rest peaceful.",
+        "Wed8_31": "You are an adventurous spirit, aren't you? Perhaps we might meet up and explore together.#$b#There are whole caves ruled by the shadow people, and with me, you could explore them without... distraction.",
+        "Thu8": "Hello, @, how are you? I am not feeling so well.#$e#... It's nothing, don't trouble yourself. Would you like to buy anything today?",
+        "Sat8": "Last night, I sat below the sewer grate, with it partially lifted. I listened until I heard the faint crow of a rooster - was it yours?#$b#I closed my eyes, and felt like I was in the town, amonsgt the townspeople.#$b#It was both soothing and sorrowful.",
+        "Sun8": "You've opened my eyes to details of the world of humans I would never have seen alone. I appreciate your presence.",
+        "Mon10": "Thank you for your continued patronage.#$b#With as much as you spend on my goods, I will be able to afford all the sun-protection, disguise amulets, room and board I'll need to travel the world above.",
+        "Tue10": "How are you today, @? I'm glad to see your face.#$b# I can see you've been having good fortune, you're radiating light.",
+        "Wed10": "Tell me of your recent adventures.#$b#Grown any rare and precious plants? Slain any evil beings? Discovered and explored any wild places?",
+        "Thu10": "If I didn't know any better, I would think you were coming here for me, and not for the rare artifacts.#$e#Oh, you do want the artifacts? Well, then here they are. My shop is always open to you.",
+        "Sat10": "Greetings, @, my friend!#$b#You know, there are not many amongst my people I would call 'friend'. There are a few shadow people I would give that name to.#$b#I am very lucky to have you added to that list. Thank you for being my friend.",
+        "Sun10": "There were many benefits to leaving my home, but  - meeting and knowing you, @."
+  },  
+},
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Rainy",
+  "entries": {
+  "Krobus": null
+  }  
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "entries": {
+  "???": null
+  }  
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Sewer",
+  "Entries": {
+  "691039/f Dwarf 50/n CF_Sewer": "Overcast/16 13/farmer -1000 -1000 0 Dwarf 14 13 1 Krobus 18 13 3 Wizard -1000 -1000 2/skippable/pause 500/emote Dwarf 12/speak Dwarf \"A Shadow Elf, above ground? This is outrageous!#$b#Your people were responsible for the death of my entire family.\"/move Krobus -1 0 3/emote Krobus 12/playSound shadowpeep/speak Krobus \"The dwarves have killed their fair share of elves, and they instigated the war by encroaching on the dark elves' ancestral home. What did they expect?#$b#However, I am sorry about your family.\"/move Dwarf 1 0 1/speak Dwarf \"'Sorry' Isn't going to cut it.\"/jump Dwarf/pause 500/animate Dwarf false true 50 4 5 6 7/jump Krobus/pause 500/animate Krobus false true 50 12 13 14 15/pause 1000/playSound throw/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/shake Dwarf 500/playSound clubhit/jump Krobus/pause 500/shake Krobus 500/playSound clubSmash/jump Dwarf/pause 500/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/shake Krobus 250/playSound shadowHit/pause 500/faceDirection farmer 0 true/animate farmer false true 500 13 14/warp farmer 16 9/playSound stoneStep/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/warp farmer 16 11/faceDirection farmer 2/pause 300/showFrame farmer 94/jump farmer/startJittering/pause 1000/stopJittering/speed farmer 6/showFrame 0/move farmer 0 2 2 true/pause 300/shake Dwarf 1000/shake Krobus 1000/playSound clubSmash/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/showFrame farmer 0/pause 500/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/speak Dwarf \"Let me at him! He's despicable.\"/speak Krobus \"As you will, then. Come and get me.\"/playMusic none/pause 1000/playSound wand/screenFlash 3/showFrame Wizard 16/warp Wizard 16 16/pause 2000/showFrame Wizard 0/pause 500/faceDirection Wizard 1 true/pause 50/faceDirection Wizard 0/pause 800/showFrame Wizard 17/screenFlash .35/playSound flameSpellHit/shake Wizard 500/specificTemporarySprite wizardSewerMagic/stopAnimation Krobus/stopAnimation Dwarf/faceDirection Krobus 2 true/faceDirection Dwarf 2 true/shake Krobus 1000/shake Dwarf 1000/pause 1000/speak Wizard \"Silence! Both of you!\"/pause 500/showFrame Wizard 8/playSound dwop/pause 1000/playMusic Upper_Ambient/speak Wizard \"The Elemental Wars have long been finished. You have no reason to be fighting any longer.#$b#The two of you must make peace for the sake of the humans that live around you. Surely you can see that.\"/pause 1000/faceDirection Dwarf 3 true/faceDirection Krobus 1 true/pause 500/emote Dwarf 40 true/emote Krobus 40 true/pause 3000/speak Dwarf \"Very well. I'll stay away from the sewer from now on.\"/faceDirection farmer 3/faceDirection Dwarf 1/pause 500/faceDirection farmer 1/pause 500/faceDirection Krobus 3/speak Krobus \"...And I'm truly sorry about the past, Dwarf. I have no personal gripe with you.\"/pause 1000/faceDirection farmer 2 true/faceDirection Dwarf 2 true/faceDirection Krobus 2 true/pause 1000/speak Wizard \"Very good. I shall cast a 'Seal of Promise' to finalize this agreement.\"/pause 1000/faceDirection Wizard 3 true/playSound dwop/pause 50/faceDirection Wizard 2/pause 1500/showFrame Wizard 16/playSound yoba/specificTemporarySprite WizardPromise/pause 3000/speed farmer 2/move farmer 0 -2 2/emote farmer 40/pause 800/end"
+    }  
+}
+    ]
+}
