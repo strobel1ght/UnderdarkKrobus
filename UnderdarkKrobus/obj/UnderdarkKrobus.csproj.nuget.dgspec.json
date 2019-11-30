@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ishanjalan/Downloads/UnderdarkKrobus-master/UnderdarkKrobus/UnderdarkKrobus.csproj": {}
+    "/Users/ishanjalan/Downloads/Elven Krobus/UnderdarkKrobus/UnderdarkKrobus.csproj": {}
   },
   "projects": {
-    "/Users/ishanjalan/Downloads/UnderdarkKrobus-master/UnderdarkKrobus/UnderdarkKrobus.csproj": {
+    "/Users/ishanjalan/Downloads/Elven Krobus/UnderdarkKrobus/UnderdarkKrobus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ishanjalan/Downloads/UnderdarkKrobus-master/UnderdarkKrobus/UnderdarkKrobus.csproj",
+        "projectUniqueName": "/Users/ishanjalan/Downloads/Elven Krobus/UnderdarkKrobus/UnderdarkKrobus.csproj",
         "projectName": "UnderdarkKrobus",
-        "projectPath": "/Users/ishanjalan/Downloads/UnderdarkKrobus-master/UnderdarkKrobus/UnderdarkKrobus.csproj",
+        "projectPath": "/Users/ishanjalan/Downloads/Elven Krobus/UnderdarkKrobus/UnderdarkKrobus.csproj",
         "packagesPath": "/Users/ishanjalan/.nuget/packages/",
-        "outputPath": "/Users/ishanjalan/Downloads/UnderdarkKrobus-master/UnderdarkKrobus/obj/",
+        "outputPath": "/Users/ishanjalan/Downloads/Elven Krobus/UnderdarkKrobus/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ishanjalan/.config/NuGet/NuGet.Config"
